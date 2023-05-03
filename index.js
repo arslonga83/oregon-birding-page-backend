@@ -26,7 +26,7 @@ transporter.verify(function (error, success) {
 });
 
 app.use(cors({
-  origin: 'http://127.0.0.1:5500'
+  origin: 'https://remarkable-starburst-5f8c1a.netlify.app'
 }))
 app.use(express.json());
 
