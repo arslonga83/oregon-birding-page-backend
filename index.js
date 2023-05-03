@@ -34,6 +34,10 @@ app.listen(port, () => {
   console.log(`Server running on port ${port}`)
 })
 
+app.get('/', (req, res) => {
+  res.send('Birding page contact form server is live')
+})
+
 app.post('/', (req, res) => {
   data = req.body;
   console.log(data)
